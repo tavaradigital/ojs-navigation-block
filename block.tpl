@@ -13,7 +13,7 @@
 
 {if !$currentJournal || $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
 <div class="pkp_block block_navigation">
-	<span class="title">Información</span>
+	<span class="title">{translate key="plugins.block.navigation.journalContent"}</span>
 	<div class="content">
 		{url|assign:"searchFormUrl" page="search" op="search" escape=false}
 		{$searchFormUrl|parse_url:$smarty.const.PHP_URL_QUERY|parse_str:$formUrlParameters}
