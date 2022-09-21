@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30T17:55:09+00:00\n"
+"PO-Revision-Date: 2020-11-30 11:43+0000\n"
+"Language-Team: Polish <http://translate.pkp.sfu.ca/projects/ojs/default/"
+"pl_PL/>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 
-<!--
-  * Copyright (c) 2013-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
-  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
-  *
-  * Plik językowy dla pl_PL
-  *
-  -->
- 
-<locale name="pl_PL" full_name="Język Polski">
-	<message key="plugins.block.navigation.displayName">Nawigacja</message>
-	<message key="plugins.block.navigation.description">Ta wtyczka udostępnia łącza nawigacji wyświetlane w kolumnie.</message>
-	<message key="plugins.block.navigation.journalContent">Zawartość czasopisma</message>
-</locale>
+msgid "plugins.block.navigation.displayName"
+msgstr "Nawigacja"
+
+msgid "plugins.block.navigation.description"
+msgstr "Ta wtyczka udostępnia łącza nawigacji wyświetlane w kolumnie."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Zawartość czasopisma"

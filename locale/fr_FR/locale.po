@@ -1,20 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:23+00:00\n"
+"PO-Revision-Date: 2020-07-30 07:47+0000\n"
+"Language-Team: French <http://translate.pkp.sfu.ca/projects/ojs/default/fr/>"
+"\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
-<!--
-  * locale.xml
-  *
-  * Copyright (c) 2013-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
-  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
-  *
-  * Localization strings for the fr_FR (Français (France)) locale.
-  *
-  -->
- 
-<locale name="fr_FR" full_name="Français (France)">
-	<message key="plugins.block.navigation.displayName">Bloc de navigation</message>
-	<message key="plugins.block.navigation.description">Ce plugiciel offre des liens de navigation dans l'encadré latéral.</message>
-	<message key="plugins.block.navigation.journalContent">Contenu de la revue</message>
-	<message key="plugins.block.navigation.searchScope">Portée de la recherche</message>
-</locale>
+msgid "plugins.block.navigation.displayName"
+msgstr "Bloc de navigation"
+
+msgid "plugins.block.navigation.description"
+msgstr "Ce plugiciel offre des liens de navigation dans l'encadré latéral."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Contenu de la revue"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Portée de la recherche"
