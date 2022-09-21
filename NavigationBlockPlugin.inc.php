@@ -99,5 +99,3 @@ class NavigationBlockPlugin extends BlockPlugin {
 		return parent::getContents($templateMgr);
 	}
 }
-
-?>
