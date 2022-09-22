@@ -55,14 +55,11 @@ class NavigationBlockPlugin extends BlockPlugin {
 	/**
 	 * Get the contents for this block.
 	 * @param $templateMgr object
-	 * @param $request
+	 * @param $request object
 	 * @return string
 	 * @see BlockPlugin::getContents
 	 */
 	public function getContents($templateMgr, $request = null) {
-		$journal = $request->getJournal();
-		if (!$journal) return '';
-
 		$templateMgr->assign('articleSearchByOptions', [
 			'query' => 'search.allFields',
 			'authors' => 'search.author',
