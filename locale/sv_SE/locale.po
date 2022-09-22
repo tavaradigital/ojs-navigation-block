@@ -23,3 +23,6 @@ msgstr "Publikationens innehåll"
 
 msgid "plugins.block.navigation.searchScope"
 msgstr "Sökomfång"
+
+msgid "search.allFields"
+msgstr "Alla områden"

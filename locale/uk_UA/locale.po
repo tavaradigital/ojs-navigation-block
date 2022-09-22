@@ -21,3 +21,6 @@ msgstr "Цей модуль забезпечує панель з навігац�
 
 msgid "plugins.block.navigation.journalContent"
 msgstr "Зміст журналу"
+
+msgid "search.allFields"
+msgstr "Всі поля"

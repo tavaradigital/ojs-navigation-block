@@ -24,3 +24,6 @@ msgstr "Contenu de la revue"
 
 msgid "plugins.block.navigation.searchScope"
 msgstr "Étendue de la recherche"
+
+msgid "search.allFields"
+msgstr "Tous les champs"

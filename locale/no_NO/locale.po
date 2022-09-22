@@ -18,3 +18,9 @@ msgstr "Denne programutvidelsen oppretter navigasjonslenker i sidespalten."
 
 msgid "plugins.block.navigation.journalContent"
 msgstr "Tidsskriftinnhold"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Søkeomfang"
+
+msgid "search.allFields"
+msgstr "Alle felt"

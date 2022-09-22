@@ -23,3 +23,6 @@ msgstr "Zeitschrifteninhalte"
 
 msgid "plugins.block.navigation.searchScope"
 msgstr "Suchbereich"
+
+msgid "search.allFields"
+msgstr "Alle Felder"

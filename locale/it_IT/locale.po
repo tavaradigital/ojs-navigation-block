@@ -23,3 +23,6 @@ msgstr "Contenuti della rivista"
 
 msgid "plugins.block.navigation.searchScope"
 msgstr "Cerca in"
+
+msgid "search.allFields"
+msgstr "Tutti i campi"

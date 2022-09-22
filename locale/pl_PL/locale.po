@@ -21,3 +21,6 @@ msgstr "Ta wtyczka udostępnia łącza nawigacji wyświetlane w kolumnie."
 
 msgid "plugins.block.navigation.journalContent"
 msgstr "Zawartość czasopisma"
+
+msgid "search.allFields"
+msgstr "Wszystkie pola"

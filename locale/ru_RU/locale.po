@@ -24,3 +24,6 @@ msgstr "Контент журнала"
 
 msgid "plugins.block.navigation.searchScope"
 msgstr "Область поиска"
+
+msgid "search.allFields"
+msgstr "Все поля"
