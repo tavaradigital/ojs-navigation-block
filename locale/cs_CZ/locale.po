@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:18+00:00\n"
+"PO-Revision-Date: 2020-04-03 05:38+0000\n"
+"Language-Team: Czech <http://translate.pkp.sfu.ca/projects/ojs/default/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Navigační panel"
+
+msgid "plugins.block.navigation.description"
+msgstr "Tento plugin poskytne v postranním panelu navigační odkazy."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Obsah časopisu"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Vyberte rozsah"

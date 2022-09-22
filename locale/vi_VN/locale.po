@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-27 23:09+0000\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/ojs/default/"
+"vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Khối điều khiển"
+
+msgid "plugins.block.navigation.description"
+msgstr "Công cụ này tạo ra các liên kết điều khiển ở cột bên."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Nội dung Tạp chí"

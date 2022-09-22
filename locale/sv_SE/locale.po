@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:35+00:00\n"
+"PO-Revision-Date: 2020-02-24 16:56+0000\n"
+"Language-Team: Swedish <http://translate.pkp.sfu.ca/projects/ojs/default/sv/>"
+"\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Navigationblock"
+
+msgid "plugins.block.navigation.description"
+msgstr "Det här tillägget tillhandahåller navigationslänkar i sidomenyn"
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Publikationens innehåll"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Sökomfång"
+
+msgid "search.allFields"
+msgstr "Alla områden"

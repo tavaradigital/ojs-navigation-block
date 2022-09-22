@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:28+00:00\n"
+"PO-Revision-Date: 2020-09-25 10:49+0000\n"
+"Language-Team: Dutch <http://translate.pkp.sfu.ca/projects/ojs/default/nl/>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Navigatie-blok"
+
+msgid "plugins.block.navigation.description"
+msgstr "Deze plugin verzorgt de navigatie-links in de sidebar."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Inhoud tijdschrift"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Zoek scope"

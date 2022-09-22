@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-04T08:59:12-08:00\n"
+"PO-Revision-Date: 2020-06-16 22:10+0000\n"
+"Language-Team: Chinese (Simplified) <http://translate.pkp.sfu.ca/projects/"
+"ojs/default/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "导航单元"
+
+msgid "plugins.block.navigation.description"
+msgstr "本插件在边栏显示导航链接."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "期刊内容"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "搜索范围"

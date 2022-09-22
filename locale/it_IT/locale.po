@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:26+00:00\n"
+"PO-Revision-Date: 2020-02-03 14:15+0000\n"
+"Language-Team: Italian <http://translate.pkp.sfu.ca/projects/ojs/default/it/>"
+"\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Modulo di navigazione"
+
+msgid "plugins.block.navigation.description"
+msgstr "Questo plugin inserisce link di navigazione al menu laterale."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Contenuti della rivista"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Cerca in"
+
+msgid "search.allFields"
+msgstr "Tutti i campi"

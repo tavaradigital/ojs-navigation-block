@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-15T14:05:03-07:00\n"
+"PO-Revision-Date: 2020-01-31 17:46+0000\n"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/ojs/"
+"default/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Bloc de navigation"
+
+msgid "plugins.block.navigation.description"
+msgstr "Ce plugiciel offre des liens de navigation dans l'encadré latéral."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Contenu de la revue"
+
+msgid "plugins.block.navigation.searchScope"
+msgstr "Étendue de la recherche"
+
+msgid "search.allFields"
+msgstr "Tous les champs"

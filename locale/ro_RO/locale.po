@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-10 14:27+0000\n"
+"Language-Team: Romanian <http://translate.pkp.sfu.ca/projects/ojs/default/"
+"ro_RO/>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "Zona de navigare"
+
+msgid "plugins.block.navigation.description"
+msgstr "Acest modul afişează bara laterală cu linkuri."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "Conţinutul revistei"

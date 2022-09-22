@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-22T02:02:02+05:00\n"
+"PO-Revision-Date:  2022-09-22T02:02:02+05:00\n"
+"Language: \n"
+
+msgid "plugins.block.navigation.displayName"
+msgstr "നാവിഗേഷന്‍ ബ്ലോക്ക്"
+
+msgid "plugins.block.navigation.description"
+msgstr "ഈ പ്ലഗിന്‍ സൈഡ്ബാറിലെ നാവിഗേഷന്‍ ലിങ്ക് ലഭ്യമാക്കുന്നു."
+
+msgid "plugins.block.navigation.journalContent"
+msgstr "ജര്‍ണലിന്റെ ഉള്ളടക്കം"
