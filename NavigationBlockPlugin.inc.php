@@ -16,57 +16,27 @@
 import('lib.pkp.classes.plugins.BlockPlugin');
 
 class NavigationBlockPlugin extends BlockPlugin {
-	/**
-	 * Determine whether the plugin is enabled. Overrides parent so that
-	 * the plugin will be displayed during install.
-	 *
-	 * @param $contextId int Context ID (journal/press)
-	 * @return boolean
-	 */
-	function getEnabled($contextId = null) {
-		if (!Config::getVar('general', 'installed')) return true;
-		return parent::getEnabled($contextId);
+
+	public function register($category, $path, $mainContextId = NULL) {
+
+		// Register the plugin even when it is not enabled
+		$success = parent::register($category, $path);
+	
+		if ($success && $this->getEnabled()) {
+		  // Do something when the plugin is enabled
+		}
+	
+		return $success;
 	}
 
-	/**
-	 * Install default settings on system install.
-	 * @return string
-	 */
-	function getInstallSitePluginSettingsFile() {
-		return $this->getPluginPath() . '/settings.xml';
-	}
-
-	/**
+		/**
 	 * Install default settings on journal creation.
 	 * @return string
 	 */
 	function getContextSpecificPluginSettingsFile() {
 		return $this->getPluginPath() . '/settings.xml';
 	}
-
-	/**
-	 * Get the block context. Overrides parent so that the plugin will be
-	 * displayed during install.
-	 *
-	 * @param $contextId int Context ID (journal/press)
-	 * @return int
-	 */
-	function getBlockContext($contextId = null) {
-		if (!Config::getVar('general', 'installed')) return BLOCK_CONTEXT_SIDEBAR;
-		return parent::getBlockContext($contextId);
-	}
-
-	/**
-	 * Determine the plugin sequence. Overrides parent so that
-	 * the plugin will be displayed during install.
-	 *
-	 * @param $contextId int Context ID (journal/press)
-	 */
-	function getSeq($contextId = null) {
-		if (!Config::getVar('general', 'installed')) return 5;
-		return parent::getSeq($contextId);
-	}
-
+	
 	/**
 	 * Get the display name of this plugin.
 	 * @return String
@@ -85,17 +55,22 @@ class NavigationBlockPlugin extends BlockPlugin {
 	/**
 	 * Get the contents for this block.
 	 * @param $templateMgr object
+	 * @param $request
 	 * @return string
+	 * @see BlockPlugin::getContents
 	 */
-	function getContents(&$templateMgr) {
-		$templateMgr->assign('articleSearchByOptions', array(
+	public function getContents($templateMgr, $request = null) {
+		$journal = $request->getJournal();
+		if (!$journal) return '';
+
+		$templateMgr->assign('articleSearchByOptions', [
 			'query' => 'search.allFields',
 			'authors' => 'search.author',
 			'title' => 'article.title',
 			'abstract' => 'search.abstract',
 			'indexTerms' => 'search.indexTerms',
 			'galleyFullText' => 'search.fullText'
-		));
-		return parent::getContents($templateMgr);
+		]);
+		return parent::getContents($templateMgr, $request);
 	}
 }
